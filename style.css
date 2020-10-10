@@ -1,0 +1,87 @@
+.grid {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+a:link{
+    color : green;
+}
+
+a:visited{
+    color: red;
+    text-decoration: none;
+}
+
+.intro h3{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: cursive;
+}
+
+.origami{
+    border-radius: 80px;
+    background-color: rgb(202, 219, 233);
+    padding: 30px;
+    margin: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 240px;
+    height: 230px;
+    font-family: fantasy;
+}
+
+.origami :hover{
+    transform:scale(1.5)
+}
+
+.origami{
+    position: relative;
+}
+
+.origami p{
+    position:absolute;
+    top : 60%;
+    left : 50%;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+}
+.origami:hover p{
+    opacity : 1;
+}
+
+.origami:hover img{
+    opacity: 0.2;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    background-color: navy;
+    padding:20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: #ffffff;
+}
+
+ol{
+    text-align: justify;
+    font-size: 24px;
+    color: red;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-around;
+}
+
+body{
+    background-color: paleturquoise;
+    margin: 0px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
